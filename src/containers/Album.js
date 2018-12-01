@@ -14,7 +14,7 @@ class Album extends Component{
   loadPhotos(){
     axios({
       method: 'POST',
-      url: 'https://photoslibrary.googleapis.com/v1/mediaItems:search',
+      url: ' ',
       headers: {
         'Authorization': `Bearer ${this.props.token}`
       },
