@@ -21,7 +21,7 @@ class Login extends Component{
     //El proveedor es una nueva instancia de la clase googleAuthProvider
     //El proveedor es distinto si inicias con facebook
     let provider = new firebase.auth.GoogleAuthProvider();
-    provider.addScope('https://www.googleapis.com/auth/photoslibrary.readonly');
+    provider.addScope(' ');
     //podemos iniciar sesion tambien con un redireccionamiento en lugar de popup
     //Se puede usar en aplicaciones hibridas que se hacen  con ionic(ios y android)
     firebase.auth().signInWithPopup(provider).then(result=>{
