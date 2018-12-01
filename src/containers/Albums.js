@@ -30,7 +30,7 @@ class Albums extends Component{
 
 loadPhotos(){
   axios({
-    url: 'https://photoslibrary.googleapis.com/v1/albums',
+    url: ' ',
     method: 'GET',
     headers: {
       //template stream de javascript
